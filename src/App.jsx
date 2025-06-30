@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import PostList from "./components/postList";
+import { ToastContainer } from "react-toastify";
 
 function App() {
-
   return (
     <>
-      Moderator Interface
+      <PostList />
+      <ToastContainer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
