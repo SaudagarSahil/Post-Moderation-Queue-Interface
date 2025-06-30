@@ -69,3 +69,9 @@ http://localhost:5173
   - `R`: Reject selected/focused post  
   - `Esc`: Deselect items / Close modal  
 - **Responsive layout** for both desktop and mobile screens  
+
+## 🚀 Live Demo
+
+Check out the live demo deployed on Netlify:  
+👉 [View Demo](https://68626fc9966d035f0e38ad8a--gleeful-haupia-07b616.netlify.app)
+
