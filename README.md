@@ -1,16 +1,53 @@
-<<<<<<< HEAD
-# Post-Moderation-Queue-Interface
-=======
-# React + Vite
+# 🛡️ Post Moderation Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and intuitive moderation dashboard built with **React**, **Redux Toolkit**, and **Tailwind CSS**. This app enables moderators to approve, reject, or review user-generated posts with features like:
 
-Currently, two official plugins are available:
+- 🔍 Modal-based content preview
+- ✅ Batch approve/reject with selection
+- ❌ Confirmation dialogs
+- 🔁 Undo support via toast notifications
+- ⌨️ Keyboard shortcuts (A, R, Space, Esc)
+- 📱 Fully responsive and mobile-friendly
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📦 Prerequisites and Dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 71caa77 (initial commit)
+### ✅ Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** (v16 or above recommended)
+- **npm** or **yarn**
+- Git (to clone the repository)
+
+### 📚 Key Dependencies
+
+| Package           | Purpose                            |
+|-------------------|------------------------------------|
+| React             | Core UI library                    |
+| Redux Toolkit     | State management                   |
+| React-Redux       | Connect Redux with React           |
+| Tailwind CSS      | Utility-first CSS framework        |
+| React-Toastify    | Toast notifications                |
+
+---
+
+## ⚙️ Installation Steps
+
+1. **Clone the repository**
+
+```bash
+git clone [https://github.com/your-username/post-moderation-dashboard.git](https://github.com/SaudagarSahil/Post-Moderation-Queue-Interface.git)
+```
+
+2. Install Dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
