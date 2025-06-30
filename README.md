@@ -67,6 +67,5 @@ http://localhost:5173
 - **Keyboard Shortcuts** for fast moderation:
   - `A`: Approve selected/focused post  
   - `R`: Reject selected/focused post  
-  - `Space`: Open content preview modal  
   - `Esc`: Deselect items / Close modal  
 - **Responsive layout** for both desktop and mobile screens  
