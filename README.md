@@ -38,16 +38,46 @@ Make sure you have the following installed:
 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/your-username/post-moderation-dashboard.git](https://github.com/SaudagarSahil/Post-Moderation-Queue-Interface.git)
+git clone https://github.com/SaudagarSahil/Post-Moderation-Queue-Interface.git
 ```
 
-2. Install Dependencies
+2. **Install Dependencies**
 ```bash
 npm install
 ```
 
-3. Start the development server
+3. **Start the development server**
 ```bash
 npm run dev
 ```
+
+4. **Open the app in your browser**
+```arduino
+http://localhost:5173
+```
+
+✨ Features
+Pagination with adjustable items per page
+
+Status-based post filtering: Pending, Approved, Rejected
+
+Content preview with modal navigation
+
+Batch approve/reject with selection
+
+Confirmation dialog before rejecting
+
+Toasts with undo action for accidental moderation
+
+Keyboard Shortcuts:
+
+A: Approve selected/focused post
+
+R: Reject selected/focused post
+
+Space: Open content preview
+
+Esc: Deselect/close modal
+
+Responsive layout for desktop and mobile
 
