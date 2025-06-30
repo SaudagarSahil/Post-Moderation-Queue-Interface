@@ -56,28 +56,17 @@ npm run dev
 http://localhost:5173
 ```
 
-✨ Features
-Pagination with adjustable items per page
+## ✨ Features
 
-Status-based post filtering: Pending, Approved, Rejected
-
-Content preview with modal navigation
-
-Batch approve/reject with selection
-
-Confirmation dialog before rejecting
-
-Toasts with undo action for accidental moderation
-
-Keyboard Shortcuts:
-
-A: Approve selected/focused post
-
-R: Reject selected/focused post
-
-Space: Open content preview
-
-Esc: Deselect/close modal
-
-Responsive layout for desktop and mobile
-
+- **Pagination** with adjustable items per page  
+- **Status-based post filtering**: Pending, Approved, Rejected  
+- **Content preview** in a modal with next/previous navigation  
+- **Batch approve/reject** posts with checkbox selection  
+- **Confirmation dialog** before rejecting a post  
+- **Toasts with undo** functionality for accidental moderation  
+- **Keyboard Shortcuts** for fast moderation:
+  - `A`: Approve selected/focused post  
+  - `R`: Reject selected/focused post  
+  - `Space`: Open content preview modal  
+  - `Esc`: Deselect items / Close modal  
+- **Responsive layout** for both desktop and mobile screens  
